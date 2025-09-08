@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="libusb">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="libusb\os">
+      <UniqueIdentifier>{9f0dbd51-0ed6-4f1d-af40-1d1f659ae654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfdt">
+      <UniqueIdentifier>{b18ff7e7-da00-4c40-9f34-6c354cdb828e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\libusb\core.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\descriptor.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\hotplug.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\io.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\strerror.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\sync.c">
+      <Filter>libusb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\os\events_windows.c">
+      <Filter>libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\os\threads_windows.c">
+      <Filter>libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\os\windows_common.c">
+      <Filter>libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\os\windows_usbdk.c">
+      <Filter>libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libusb\os\windows_winusb.c">
+      <Filter>libusb\os</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fel_lib.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\progress.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\soc_info.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fel-spiflash.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fit_image.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_addresses.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_check.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_empty_tree.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_overlay.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_ro.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_rw.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_strerror.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_sw.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libfdt\fdt_wip.c">
+      <Filter>libfdt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\libusb\config.h">
+      <Filter>libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\libusb.h">
+      <Filter>libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\libusbi.h">
+      <Filter>libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\version.h">
+      <Filter>libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\version_nano.h">
+      <Filter>libusb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\os\events_windows.h">
+      <Filter>libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\os\threads_windows.h">
+      <Filter>libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\os\windows_common.h">
+      <Filter>libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\os\windows_usbdk.h">
+      <Filter>libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libusb\os\windows_winusb.h">
+      <Filter>libusb\os</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fel_lib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\progress.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\soc_info.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fel-spiflash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fit_image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libfdt\fdt.h">
+      <Filter>libfdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libfdt\libfdt.h">
+      <Filter>libfdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libfdt\libfdt_env.h">
+      <Filter>libfdt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libfdt\libfdt_internal.h">
+      <Filter>libfdt</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
